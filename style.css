@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    .service-cards {
+        flex-direction: column;
+    }
+}
+
 .main{
     width: 100%;
     background:  linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
@@ -228,5 +237,6 @@ ul li a:hover{
     padding-left: 14px;
     padding-top: 5px;
 }
+
 
 
