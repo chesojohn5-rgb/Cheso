@@ -1,15 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-    .service-cards {
-        flex-direction: column;
-    }
 }
 
 .main{
@@ -17,19 +11,23 @@
     background:  linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    min-height: 100vh;
 }
 
 .navbar{
     width: 1200px;
-    height: 75px;
+    height: auto;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
 }
 
 .icon{
-    width: 200px;
-    float: left;
-    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -237,6 +235,7 @@ ul li a:hover{
     padding-left: 14px;
     padding-top: 5px;
 }
+
 
 
 
