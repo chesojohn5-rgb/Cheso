@@ -34,28 +34,23 @@
     color: #ff7200;
     font-size: 35px;
     font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .menu{
-    width: 400px;
-    float:left;
-    height: 70px; 
+    flex: 1;
 }
 
 ul{
-    float: left;
     display: flex;
     justify-content: center;
     align-item: center; 
+    flex-wrap: wrap;
 }
 
 ul li{
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
+    margin: 10px 20px;
     font-size: 14px;
 }
 
@@ -72,9 +67,10 @@ ul li a:hover{
 }
 
 .search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 10px;
 }
 
 .srch{
@@ -85,11 +81,9 @@ ul li a:hover{
     border: 1px solid #ff7200;
     margin-top: 13px;
     color: #fff;
-    border-right: none;
     font-size: 16px;
-    float: left;
     padding: 10px;
-    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
     border-top-left-radius: 5px;
 }
 
@@ -235,6 +229,7 @@ ul li a:hover{
     padding-left: 14px;
     padding-top: 5px;
 }
+
 
 
 
